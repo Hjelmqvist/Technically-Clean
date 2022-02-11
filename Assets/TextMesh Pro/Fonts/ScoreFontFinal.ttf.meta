@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e568e9cf486d75c41861e64ea22f36e8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - icomoon
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 809fd62f06bc1914fb9002f87e52a4e8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

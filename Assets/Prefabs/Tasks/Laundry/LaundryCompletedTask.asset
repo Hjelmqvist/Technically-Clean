@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a1cfa5e1758d040baa08ad90cee152, type: 3}
+  m_Name: LaundryCompletedTask
+  m_EditorClassIdentifier: 
+  tasks:
+  - {fileID: 11400000, guid: b08e92a474bd9324597e7c694de4a415, type: 2}
+  - {fileID: 11400000, guid: c5c788b4f563d684c804f4987e8535ae, type: 2}
+  - {fileID: 11400000, guid: 78bfa6be0881a2f45b92057a5bc2dd9a, type: 2}

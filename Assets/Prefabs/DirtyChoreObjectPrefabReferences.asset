@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da21ea9ad0756b46923932d348b5dfc, type: 3}
+  m_Name: DirtyChoreObjectPrefabReferences
+  m_EditorClassIdentifier: 
+  prefabReferences:
+  - {fileID: 4206991773800093350, guid: 03decd70a034faa4d9ca4e6285f4705b, type: 3}
+  - {fileID: 2593523196927654356, guid: 06d6860a94b29434dad77ea2d350b9e4, type: 3}
+  - {fileID: 2715290596619269475, guid: 7bdde1c902313cc469c456b48d53f500, type: 3}

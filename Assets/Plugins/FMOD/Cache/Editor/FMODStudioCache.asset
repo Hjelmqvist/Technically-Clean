@@ -1,0 +1,1161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9127543728684000405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music & GameState/Stinger_Fail
+  m_EditorClassIdentifier: 
+  Path: event:/Music & GameState/Stinger_Fail
+  Guid:
+    Data1: -87327636
+    Data2: 1137815597
+    Data3: -223575139
+    Data4: -2126684201
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5720
+--- !u!114 &-8465253741326799222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Rug
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Rug
+  Guid:
+    Data1: 32083526
+    Data2: 1243078773
+    Data3: -2076545108
+    Data4: -747826091
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 700
+--- !u!114 &-8090707722209347860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Trashcan
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Trashcan
+  Guid:
+    Data1: -2077897989
+    Data2: 1221488504
+    Data3: -1640904541
+    Data4: 34609939
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 740
+--- !u!114 &-8003225654437231939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music & GameState/Menu_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music & GameState/Menu_Music
+  Guid:
+    Data1: 502702958
+    Data2: 1285743300
+    Data3: 225603750
+    Data4: -423120825
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32000
+--- !u!114 &-5540727211024705902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hazards/Neighbor_angry
+  m_EditorClassIdentifier: 
+  Path: event:/Hazards/Neighbor_angry
+  Guid:
+    Data1: 1395586613
+    Data2: 1305743743
+    Data3: -735317844
+    Data4: -577178577
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 35
+  Length: 2620
+--- !u!114 &-4564716748493441939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Paused
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Paused
+  Guid:
+    Data1: 1480309367
+    Data2: 1201239005
+    Data3: 1589904060
+    Data4: 64255865
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4299791509844572896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Background_Music/TimeCounter(100%-0%)
+  m_EditorClassIdentifier: 
+  Name: TimeCounter(100%-0%)
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.01
+  ID:
+    data1: 688936112
+    data2: 3017576321
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3366949387635234159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Toilet_Loop/BedIsDone
+  m_EditorClassIdentifier: 
+  Name: BedIsDone
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2302017279
+    data2: 2368728758
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3170778069246312949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music & GameState/Intro_Cinematic_scene1
+  m_EditorClassIdentifier: 
+  Path: event:/Music & GameState/Intro_Cinematic_scene1
+  Guid:
+    Data1: -1240806053
+    Data2: 1261147120
+    Data3: 2014122382
+    Data4: 1246237377
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40988
+--- !u!114 &-3026920317777692844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Score_Management/Score_remove
+  m_EditorClassIdentifier: 
+  Path: event:/Score_Management/Score_remove
+  Guid:
+    Data1: -1638701274
+    Data2: 1209350005
+    Data3: -1985879372
+    Data4: -1277264017
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 295
+--- !u!114 &-2920716760110965650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ui/Button_Hover
+  m_EditorClassIdentifier: 
+  Path: event:/Ui/Button_Hover
+  Guid:
+    Data1: 578121360
+    Data2: 1296882185
+    Data3: 187863454
+    Data4: 373523086
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 75
+--- !u!114 &-2669221424216758553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hazards/Grandma_hang_up
+  m_EditorClassIdentifier: 
+  Path: event:/Hazards/Grandma_hang_up
+  Guid:
+    Data1: 1500876580
+    Data2: 1108254164
+    Data3: 249470649
+    Data4: -1758911561
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 379
+--- !u!114 &-2132177898468296004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Washing_machine_Recieve
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Washing_machine_Recieve
+  Guid:
+    Data1: 2047144461
+    Data2: 1269481093
+    Data3: -2080920162
+    Data4: 2103409931
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 355
+--- !u!114 &-1549392086078745117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Score_Management/Score_add
+  m_EditorClassIdentifier: 
+  Path: event:/Score_Management/Score_add
+  Guid:
+    Data1: 1816906985
+    Data2: 1160525185
+    Data3: -852070496
+    Data4: 1230586771
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 295
+--- !u!114 &-1472309757433003597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hazards/Grandma_PhoneRing_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Hazards/Grandma_PhoneRing_Loop
+  Guid:
+    Data1: 1251159441
+    Data2: 1204665243
+    Data3: 1150301864
+    Data4: -527057981
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2100
+--- !u!114 &-1455591634844665702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music & GameState/Stinger_Win
+  m_EditorClassIdentifier: 
+  Path: event:/Music & GameState/Stinger_Win
+  Guid:
+    Data1: 987319764
+    Data2: 1133318661
+    Data3: -841030266
+    Data4: -630269670
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8800
+--- !u!114 &-1360381661516196778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bed_Loop/BedIsDone
+  m_EditorClassIdentifier: 
+  Name: BedIsDone
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2302017279
+    data2: 2368728758
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1115197475381024371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Washing_machine_loop
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Washing_machine_loop
+  Guid:
+    Data1: 1573998267
+    Data2: 1284814994
+    Data3: -357402722
+    Data4: -1388266753
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1586998214469358610}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6185
+--- !u!114 &-825381697574880815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Wardrobe
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Wardrobe
+  Guid:
+    Data1: -539918994
+    Data2: 1156234750
+    Data3: 108046472
+    Data4: -1945076288
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 691
+--- !u!114 &-803487898988650191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music & GameState/Parents_come_home
+  m_EditorClassIdentifier: 
+  Path: event:/Music & GameState/Parents_come_home
+  Guid:
+    Data1: 590003338
+    Data2: 1179266680
+    Data3: 2059609488
+    Data4: -1980717295
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10800
+--- !u!114 &-382574140075225811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hazards/Phone_Tutorial
+  m_EditorClassIdentifier: 
+  Path: event:/Hazards/Phone_Tutorial
+  Guid:
+    Data1: -972508311
+    Data2: 1219919947
+    Data3: -238003293
+    Data4: 651305605
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7232259078596877414}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51993
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 1699101020904402092}
+  - {fileID: 1485629634321756673}
+  EditorEvents:
+  - {fileID: 5913556398651748680}
+  - {fileID: -2132177898468296004}
+  - {fileID: 1790921885180862088}
+  - {fileID: -2669221424216758553}
+  - {fileID: -3026920317777692844}
+  - {fileID: 5407731333158881907}
+  - {fileID: -5540727211024705902}
+  - {fileID: -8465253741326799222}
+  - {fileID: 4142404915100539423}
+  - {fileID: -4564716748493441939}
+  - {fileID: 854686483860984954}
+  - {fileID: 9063038682834052170}
+  - {fileID: -1472309757433003597}
+  - {fileID: 7316419668347851936}
+  - {fileID: -1115197475381024371}
+  - {fileID: 9019252225978273590}
+  - {fileID: -1549392086078745117}
+  - {fileID: 8234124016376565704}
+  - {fileID: -8090707722209347860}
+  - {fileID: 4463837932319535549}
+  - {fileID: -9127543728684000405}
+  - {fileID: -803487898988650191}
+  - {fileID: 1382446442341190231}
+  - {fileID: -1455591634844665702}
+  - {fileID: 268012070628155004}
+  - {fileID: -825381697574880815}
+  - {fileID: -3170778069246312949}
+  - {fileID: 3540602091046910673}
+  - {fileID: -382574140075225811}
+  - {fileID: -8003225654437231939}
+  - {fileID: -2920716760110965650}
+  - {fileID: 4419640497333835963}
+  EditorParameters:
+  - {fileID: 7681635436184576571}
+  - {fileID: 6497989306665976048}
+  MasterBanks:
+  - {fileID: 1485629634321756673}
+  StringsBanks:
+  - {fileID: 1699101020904402092}
+  cacheTime: 637801021757267186
+  cacheVersion: 10
+--- !u!114 &268012070628155004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Kitchen_Storage
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Kitchen_Storage
+  Guid:
+    Data1: -1812850672
+    Data2: 1332424018
+    Data3: 117672108
+    Data4: -2142769597
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 920
+--- !u!114 &854686483860984954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Test/test
+  m_EditorClassIdentifier: 
+  Path: event:/Test/test
+  Guid:
+    Data1: 1895788162
+    Data2: 1268014142
+    Data3: -2062877043
+    Data4: -479761655
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1382446442341190231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music & GameState/Background_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music & GameState/Background_Music
+  Guid:
+    Data1: -2105123922
+    Data2: 1106044410
+    Data3: -730729845
+    Data4: 1003694086
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4299791509844572896}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27000
+--- !u!114 &1485629634321756673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: D:/Perforce/mathias.hjelmqvist_GP2/FG21-FT_GP2_Team16/FmodBank/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637801021757207197
+  FileSizes:
+  - Name: 
+    Value: 10846944
+  Exists: 1
+--- !u!114 &1586998214469358610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Washing_machine_loop/WashIsDone
+  m_EditorClassIdentifier: 
+  Name: WashIsDone
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1992874082
+    data2: 1262603854
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1699101020904402092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: D:/Perforce/mathias.hjelmqvist_GP2/FG21-FT_GP2_Team16/FmodBank/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637801021757267186
+  FileSizes:
+  - Name: 
+    Value: 2958
+  Exists: 1
+--- !u!114 &1790921885180862088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Test/test mikor
+  m_EditorClassIdentifier: 
+  Path: event:/Test/test mikor
+  Guid:
+    Data1: -1750189298
+    Data2: 1194526498
+    Data3: 1540519613
+    Data4: 46214988
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 980
+--- !u!114 &3497941951877133687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Grandma_Talk_Loop/GrandmaIsDone
+  m_EditorClassIdentifier: 
+  Name: GrandmaIsDone
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1863517588
+    data2: 1471073901
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3540602091046910673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music & GameState/Intro_Cinematic_scene2
+  m_EditorClassIdentifier: 
+  Path: event:/Music & GameState/Intro_Cinematic_scene2
+  Guid:
+    Data1: -2143609226
+    Data2: 1322700941
+    Data3: -1472146263
+    Data4: 1617551649
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19249
+--- !u!114 &4142404915100539423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Toilet_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Toilet_Loop
+  Guid:
+    Data1: 239215944
+    Data2: 1142417591
+    Data3: -1749039712
+    Data4: 1515844806
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3366949387635234159}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2150
+--- !u!114 &4419640497333835963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ui/Button_Press
+  m_EditorClassIdentifier: 
+  Path: event:/Ui/Button_Press
+  Guid:
+    Data1: -626757959
+    Data2: 1260917604
+    Data3: -428702839
+    Data4: -2090466465
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180
+--- !u!114 &4463837932319535549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music & GameState/Stinger_Middle
+  m_EditorClassIdentifier: 
+  Path: event:/Music & GameState/Stinger_Middle
+  Guid:
+    Data1: 2100802083
+    Data2: 1219260936
+    Data3: 983900550
+    Data4: 1438148263
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4747
+--- !u!114 &5407731333158881907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Toilet
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Toilet
+  Guid:
+    Data1: 353562673
+    Data2: 1320402522
+    Data3: 1711700876
+    Data4: 477836025
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3400
+--- !u!114 &5913556398651748680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Sink_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Sink_Loop
+  Guid:
+    Data1: -1302374394
+    Data2: 1213067052
+    Data3: 901421233
+    Data4: 1472042425
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &6497989306665976048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TimeCounter(100%-0%)
+  m_EditorClassIdentifier: 
+  Name: TimeCounter(100%-0%)
+  StudioPath: parameter:/TimeCounter(100%-0%)
+  Min: 0
+  Max: 1
+  Default: 0.01
+  ID:
+    data1: 688936112
+    data2: 3017576321
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7232259078596877414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Phone_Tutorial/GrandmaIsDone
+  m_EditorClassIdentifier: 
+  Name: GrandmaIsDone
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1863517588
+    data2: 1471073901
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7316419668347851936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Sink_Recieve
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Sink_Recieve
+  Guid:
+    Data1: 501264804
+    Data2: 1115363955
+    Data3: 2142159010
+    Data4: 527000818
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 420
+--- !u!114 &7681635436184576571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GrandmaIsDone
+  m_EditorClassIdentifier: 
+  Name: GrandmaIsDone
+  StudioPath: parameter:/GrandmaIsDone
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1863517588
+    data2: 1471073901
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8234124016376565704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Washing_machine_done
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Washing_machine_done
+  Guid:
+    Data1: -121208339
+    Data2: 1236965768
+    Data3: -239085634
+    Data4: -589271197
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1685
+--- !u!114 &9019252225978273590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Containers_cleaners_and_Items/Bed_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Containers_cleaners_and_Items/Bed_Loop
+  Guid:
+    Data1: -236008488
+    Data2: 1135751328
+    Data3: -231289469
+    Data4: -138416659
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1360381661516196778}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2850
+--- !u!114 &9063038682834052170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hazards/Grandma_Talk_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Hazards/Grandma_Talk_Loop
+  Guid:
+    Data1: -871641973
+    Data2: 1110017629
+    Data3: -99105872
+    Data4: -1090426526
+  Banks:
+  - {fileID: 1485629634321756673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3497941951877133687}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2700
