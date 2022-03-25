@@ -345,7 +345,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: D:/Perforce/mathias.hjelmqvist_GP2/FG21-FT_GP2_Team16/FmodBank/Desktop
+  sourceBankPath: FmodBank/Desktop
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

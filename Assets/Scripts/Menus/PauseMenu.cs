@@ -22,7 +22,7 @@ public class PauseMenu : MonoBehaviour
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown( KeyCode.Escape ))
+        if (Input.GetButtonDown("Cancel"))
         {
             if (isPaused)
             {
@@ -30,7 +30,7 @@ public class PauseMenu : MonoBehaviour
             }
 
             isPaused = !isPaused;
-            PauseOrResume( isPaused );
+            PauseOrResume(isPaused);
         }
     }
 
@@ -45,12 +45,12 @@ public class PauseMenu : MonoBehaviour
                 haveSetFalse = true;
             }
 
-            child.SetActive( false );
+            child.SetActive(false);
         }
 
         if (haveSetFalse)
         {
-            pauseMenuWindow.SetActive( true );
+            pauseMenuWindow.SetActive(true);
             return;
         }
     }
@@ -59,8 +59,8 @@ public class PauseMenu : MonoBehaviour
     {
         if (ended) return;
 
-        pauseMenuWindow.SetActive( isPaused );
-        RuntimeManager.GetBus( "bus:/FakeMasterBus" ).setPaused( isPaused );
+        pauseMenuWindow.SetActive(isPaused);
+        RuntimeManager.GetBus("bus:/FakeMasterBus").setPaused(isPaused);
         this.isPaused = isPaused;
         Time.timeScale = isPaused ? 0f : 1f;
     }
@@ -68,7 +68,7 @@ public class PauseMenu : MonoBehaviour
     public void PauseForEndMenu(bool isPaused)
     {
         ended = true;
-        RuntimeManager.GetBus( "bus:/" ).stopAllEvents( STOP_MODE.IMMEDIATE );
+        RuntimeManager.GetBus("bus:/").stopAllEvents(STOP_MODE.IMMEDIATE);
         this.isPaused = isPaused;
         Time.timeScale = isPaused ? 0f : 1f;
     }
@@ -76,7 +76,7 @@ public class PauseMenu : MonoBehaviour
     public void ExitToMainMenu()
     {
         this.isPaused = false;
-        RuntimeManager.GetBus( "bus:/" ).setPaused( false );
+        RuntimeManager.GetBus("bus:/").setPaused(false);
         Time.timeScale = 1f;
     }
 }

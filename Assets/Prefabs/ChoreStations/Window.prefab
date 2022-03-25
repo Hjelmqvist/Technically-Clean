@@ -349,6 +349,9 @@ MonoBehaviour:
   OnTaskCompleted:
     m_PersistentCalls:
       m_Calls: []
+  OnGameEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &6769425411202563745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -497,7 +500,7 @@ MonoBehaviour:
   seeThroughBorderColor: {r: 0, g: 0, b: 0, a: 1}
   seeThroughBorderWidth: 0.45
   seeThroughOrdered: 0
-  rmsCount: 19
+  rmsCount: 1
   hitFxInitialIntensity: 1
   hitFxMode: 0
   hitFxFadeOutDuration: 0.25
@@ -517,8 +520,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 7734881650523064110}
   choreStation: {fileID: 6769425411202563679}
-  putAwayText: 'RMB : Throw'
+  putAwayText: '{0} : Throw'
   startInteractText: 
+  primary: 0
   isWindow: 1
 --- !u!1 &6769425411468777176
 GameObject:
@@ -1000,6 +1004,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScorePopupManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6790728440182436404, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728440786911872, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728441046392935, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728441358976544, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728441398591559, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728441725398904, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
 --- !u!224 &1659117268246123115 stripped

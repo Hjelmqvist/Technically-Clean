@@ -2643,6 +2643,7 @@ GameObject:
   - component: {fileID: 2703908450958115971}
   - component: {fileID: 6402810551234285265}
   - component: {fileID: 1553183151922044835}
+  - component: {fileID: 7872244828101130981}
   m_Layer: 5
   m_Name: ReturnButton
   m_TagString: Untagged
@@ -2776,6 +2777,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3516728351039823653}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1553183151922044835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2806,6 +2819,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &7872244828101130981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570459381512379510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e886d9a9a1a7f418e5e8845f29524d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1612772307006982662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2868,9 +2893,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+    m_PressedColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+    m_SelectedColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -4819,6 +4844,7 @@ GameObject:
   - component: {fileID: 3516728350992935620}
   - component: {fileID: 3516728350992935621}
   - component: {fileID: 196078352549705537}
+  - component: {fileID: 7873846277218935263}
   m_Layer: 5
   m_Name: RetryButton
   m_TagString: Untagged
@@ -5018,6 +5044,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &7873846277218935263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516728350992935611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e886d9a9a1a7f418e5e8845f29524d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3516728351025398895
 GameObject:
   m_ObjectHideFlags: 0
@@ -5639,6 +5677,7 @@ GameObject:
   - component: {fileID: 3516728351513449106}
   - component: {fileID: 3516728351513449107}
   - component: {fileID: 8332741569448424058}
+  - component: {fileID: 7612687125380026805}
   m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -5814,6 +5853,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &7612687125380026805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516728351513449105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e886d9a9a1a7f418e5e8845f29524d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3516728351733352036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6661,6 +6712,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 3516728351039823653}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &7356632342725990016
 MonoBehaviour:
@@ -8818,9 +8881,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+    m_PressedColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+    m_SelectedColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -11051,7 +11114,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -11061,9 +11124,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 311206977718765323, guid: 3c227b5635e685c4f9aca0c5e9122f0e, type: 3}
+    m_PressedSprite: {fileID: -7592285766301660858, guid: 2d539b97df49db34fbb37f6a7f908403, type: 3}
+    m_SelectedSprite: {fileID: 311206977718765323, guid: 3c227b5635e685c4f9aca0c5e9122f0e, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -11252,6 +11315,7 @@ GameObject:
   - component: {fileID: 3841987458186781327}
   - component: {fileID: 2246723347445307494}
   - component: {fileID: 7395829753749674079}
+  - component: {fileID: 5749420458055930754}
   m_Layer: 5
   m_Name: ReturnButton
   m_TagString: Untagged
@@ -11439,6 +11503,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &5749420458055930754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790752819730759334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e886d9a9a1a7f418e5e8845f29524d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5820993611582055072
 GameObject:
   m_ObjectHideFlags: 0
@@ -13436,9 +13512,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+    m_PressedColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+    m_SelectedColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -13607,7 +13683,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -13617,9 +13693,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 311206977718765323, guid: 3c227b5635e685c4f9aca0c5e9122f0e, type: 3}
+    m_PressedSprite: {fileID: -7592285766301660858, guid: 2d539b97df49db34fbb37f6a7f908403, type: 3}
+    m_SelectedSprite: {fileID: 311206977718765323, guid: 3c227b5635e685c4f9aca0c5e9122f0e, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -15224,6 +15300,7 @@ GameObject:
   - component: {fileID: 7617921028725164131}
   - component: {fileID: 3646705902932436912}
   - component: {fileID: 1220615508917386362}
+  - component: {fileID: 5550431215160791205}
   m_Layer: 5
   m_Name: ReturnButton
   m_TagString: Untagged
@@ -15399,6 +15476,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &5550431215160791205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796288135679197858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e886d9a9a1a7f418e5e8845f29524d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8837379121554120504
 GameObject:
   m_ObjectHideFlags: 0

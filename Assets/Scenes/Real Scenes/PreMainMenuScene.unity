@@ -369,6 +369,7 @@ GameObject:
   - component: {fileID: 950618533}
   - component: {fileID: 950618532}
   - component: {fileID: 950618536}
+  - component: {fileID: 950618537}
   m_Layer: 5
   m_Name: SkipButt
   m_TagString: Untagged
@@ -556,6 +557,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &950618537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950618530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e886d9a9a1a7f418e5e8845f29524d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1125177740
 GameObject:
   m_ObjectHideFlags: 0

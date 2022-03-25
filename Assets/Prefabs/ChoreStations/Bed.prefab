@@ -276,6 +276,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnGameEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &7936250913447623564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -350,7 +353,8 @@ MonoBehaviour:
   text: {fileID: 5963529655277591445}
   choreStation: {fileID: 7936250913447623563}
   putAwayText: 
-  startInteractText: 'Hold LMB : Tidy Up'
+  startInteractText: 'Hold {0} : Tidy Up'
+  primary: 1
   isWindow: 0
 --- !u!114 &241674534
 MonoBehaviour:

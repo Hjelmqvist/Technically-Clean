@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -7,8 +8,10 @@ public class InteractText : MonoBehaviour
     [SerializeField] private ChoreStation choreStation;
     [SerializeField] private string putAwayText;
     [SerializeField] private string startInteractText;
+    [SerializeField] private bool primary;
     [SerializeField] private bool isWindow;
     private static InteractText selected;
+    private PlayerInputs playerInput;
 
     public static void SetSelected(InteractText newSelected = null, ChoreObject choreObject = null)
     {
@@ -29,13 +32,20 @@ public class InteractText : MonoBehaviour
         if (interact.choreStation != null)
         {
             if (cs.CanPutAway(choreObject) || (interact.isWindow && choreObject != null))
-                message += interact.putAwayText + '\n';
+                message += String.Format(interact.putAwayText + '\n', 
+                    interact.playerInput.GetInteractKey(interact.primary));
             if (cs.EnoughForInteraction)
-                message += interact.startInteractText + '\n';
+                message += String.Format(interact.startInteractText + '\n',
+            interact.playerInput.GetInteractKey(interact.primary));
             if (cs.TakesItems)
                 message += "Amount: " + cs.AmountContained.ToString() + '\n';
         }
 
         interact.text.text = message;
+    }
+
+    private void Awake()
+    {
+        playerInput = GameObject.Find("Player").GetComponent<PlayerInputs>();
     }
 }

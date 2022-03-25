@@ -12,12 +12,14 @@ public enum InteractState
 
 public class PlayerInputs : MonoBehaviour
 {
+    [SerializeField] ControlSchemes schemes;
     [SerializeField] string horizontalName = "Horizontal";
     [SerializeField] string verticalName = "Vertical";
     [SerializeField] string primaryInteractName = "PrimaryInteract";
     [SerializeField] string secondaryInteractName = "SecondaryInteract";
 
     Vector2 movementInput;
+    string schemeId = "keymouse";
 
     [HideInInspector] public UnityEvent<Vector2> OnMovementInput;
     [HideInInspector] public UnityEvent<InteractState> OnPrimaryInteract;
@@ -45,6 +47,9 @@ public class PlayerInputs : MonoBehaviour
     {
         if (Input.GetButtonDown(interactName))
         {
+            bool controllerConnected = Input.GetJoystickNames().Length > 0;
+            schemeId = schemes.GetId(controllerConnected);
+            
             return InteractState.Down;
         }
         else if (Input.GetButton(interactName))
@@ -57,5 +62,12 @@ public class PlayerInputs : MonoBehaviour
         }
 
         return InteractState.None;
+    }
+
+    public string GetInteractKey(bool primary)
+    {
+        if (primary)
+            return schemes.GetScheme(schemeId).interact;
+        return schemes.GetScheme(schemeId).throwItem;
     }
 }

@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2730eb58a7820a24c9e5f788902f309a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  schemes: {fileID: 11400000, guid: b515b129b730c6140ae2e5d34006ee1a, type: 2}
   horizontalName: Horizontal
   verticalName: Vertical
   primaryInteractName: Fire1

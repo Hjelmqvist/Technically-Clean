@@ -1826,6 +1826,9 @@ MonoBehaviour:
   OnTaskCompleted:
     m_PersistentCalls:
       m_Calls: []
+  OnGameEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &8370510204778733122
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2024,8 +2027,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 6162300418120968957}
   choreStation: {fileID: 8370510204778733125}
-  putAwayText: 'LMB : Flush Down'
+  putAwayText: '{0} : Flush Down'
   startInteractText: 
+  primary: 1
   isWindow: 0
 --- !u!1001 &2019311823085610563
 PrefabInstance:
@@ -2126,6 +2130,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScorePopupManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6790728440182436404, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728440786911872, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728441046392935, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728441358976544, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728441398591559, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
+    - target: {fileID: 6790728441725398904, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1369456103105354700, guid: 8b18eae4eebbe0247a59f65b0ef57bd6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78feecbf2182dc845a92bcc02f2ebf61, type: 3}
 --- !u!224 &4772560985288137149 stripped

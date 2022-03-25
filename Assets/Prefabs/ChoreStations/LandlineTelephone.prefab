@@ -660,7 +660,8 @@ MonoBehaviour:
   text: {fileID: 2814737467109999357}
   choreStation: {fileID: 5100199407043639086}
   putAwayText: 
-  startInteractText: 'LMB : Answer'
+  startInteractText: '{0} : Answer'
+  primary: 1
   isWindow: 0
 --- !u!1 &5100199407669532324
 GameObject:

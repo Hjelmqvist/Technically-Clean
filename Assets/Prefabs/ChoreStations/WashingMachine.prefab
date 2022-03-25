@@ -1072,8 +1072,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 2003179602830698344}
   choreStation: {fileID: 2534411601290615138}
-  putAwayText: 'LMB : Put In'
-  startInteractText: 'LMB : Start'
+  putAwayText: '{0} : Put In'
+  startInteractText: '{0} : Start'
+  primary: 0
   isWindow: 0
 --- !u!114 &8730990677848371869
 MonoBehaviour:
